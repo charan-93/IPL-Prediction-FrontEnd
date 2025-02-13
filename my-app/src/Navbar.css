@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-light {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .navbar-dark {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+  }
+  
+  .theme-toggle {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: 1.5rem;
+  }

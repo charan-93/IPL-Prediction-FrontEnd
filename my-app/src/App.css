@@ -1,0 +1,85 @@
+/* App.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .app-light,
+  .app-dark {
+    min-height: 100vh; /* Ensures the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-light {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .app-dark {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: black;
+    width: 1300px;
+    margin: auto;
+    padding: 1rem;
+    transform: translateX(-0.5%);
+  }
+  
+  .teams {
+    border: 1px solid black;
+    height: 262px;
+    width: 265px;
+    margin: 5px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Team images */
+  #csk { background-image: url('../public/CSK-F.png'); }
+  #rcb { background-image: url('../public/RCB-F.png'); }
+  #lsg { background-image: url('../public/LSG-F.png'); }
+  #kkr { background-image: url('../public/KKR-F.png'); }
+  #rr { background-image: url('../public/RR-F.png'); }
+  #srh { background-image: url('../public/SRH-F.png'); }
+  #pb { background-image: url('../public/PK-F.png'); }
+  #gt { background-image: url('../public/GT-F.png'); }
+  #mi { background-image: url('../public/MI-F.png'); }
+  #dc { background-image: url('../public/DC-F.png'); }
+  #csk:hover{
+       background-image: url('../public/CSK-B.png');
+  }
+  #mi:hover{
+    background-image: url('../public/MI-B.png');
+  }
+  #gt:hover{
+    background-image: url('../public/GT-B.png');
+  }
+  #kkr:hover{
+    background-image: url('../public/KKR-B.png');
+  }
+  #rr:hover{
+    background-image: url('../public/RR-B.png');
+  }
+  #srh:hover{
+    background-image: url('../public/SRH-B.png');
+  }

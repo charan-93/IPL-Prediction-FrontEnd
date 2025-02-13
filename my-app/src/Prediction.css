@@ -1,0 +1,94 @@
+#abc{
+  background-image: url("../public/bgi.jpg");
+  background-size: cover;
+  background-size: cover;
+}
+
+#first {
+  margin-bottom: 20px;
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 40px auto;
+}
+
+.f {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 100px;
+}
+
+.f h4 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.f1 {
+  width: 400px;
+   background-color: #ffffff80;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.f1:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.but {
+  width: 300px;
+  height: 40px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40px;
+  left: 540px;
+}
+
+.but:hover {
+  background-color: #3e8e41;
+}
+
+.but:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+input::placeholder{
+  color: black;
+}
+#divi {
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Horizontally centers the div */
+  align-items: center; /* Vertically centers the div */
+  flex-direction: column; /* Ensures content is stacked vertically */
+  margin-top: 0px;
+  background-color: #f8f9fa; /* Light background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Inner padding */
+  text-align: center; /* Centers text inside the div */
+ 
+}
+
+#head {
+  font-size: 1.5rem;
+  color: #333333; /* Dark text color for contrast */
+  margin-bottom: 10px;
+}
+
+#par {
+  font-size: 1.2rem;
+  color: #555555; /* Slightly lighter text color for subtler details */
+  font-weight: bold;
+}
